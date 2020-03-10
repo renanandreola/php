@@ -31,7 +31,5 @@ if ($nome && validaEmail($de) && $mensagem) {
 } else {
     $pagina = "mail_error.php";
 }
-
 header("location:$pagina");
-
 ?>

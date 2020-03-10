@@ -5,7 +5,7 @@
         <title>Contato</title>
     </head>
     <body>
-        <form action="mail_send.php" method="post">
+        <form action="/mail_send.php" method="post">
             <fieldset>
                 <label for="email">E-mail: </label>
                 <input required name="email" type="email">
